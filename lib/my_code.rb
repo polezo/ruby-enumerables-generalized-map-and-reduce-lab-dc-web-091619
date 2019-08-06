@@ -3,10 +3,10 @@ def map (arr)
    arr2=[]
    i=0
   while i < arr.length do
-  arr2.push(arr[i])
+  arr2.push(yield(arr[i]))
    i+=1
   end
- yield(arr2)
+  arr2
 end
 
 
