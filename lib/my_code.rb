@@ -9,4 +9,7 @@ def map (arr)
   arr2
 end
 
+def reduce (arr)
+  value = 0
+  
 
