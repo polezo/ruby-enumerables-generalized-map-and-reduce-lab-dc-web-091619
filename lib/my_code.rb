@@ -11,5 +11,8 @@ end
 
 def reduce (arr)
   value = 0
-  
+  truthiness = nil
+  i=0 
+  while i < arr.length do
+    if arr[i]
 
