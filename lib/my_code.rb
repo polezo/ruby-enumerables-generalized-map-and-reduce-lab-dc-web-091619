@@ -1,9 +1,9 @@
 # Your Code Here
-def map
+def map (arr)
+   arr2=[0]
    i=0
   while i < arr.length 
-    arr2.push(arr[i]*-1)
-    i+=1
+   i+=1
 end
 
 map
