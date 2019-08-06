@@ -2,7 +2,7 @@
 def map (arr)
    arr2=[]
    i=0
-  while i < arr.length 
+  while i < arr.length do
   arr2.push(arr[i])
    i+=1
   end
