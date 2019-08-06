@@ -18,7 +18,6 @@ def reduce (arr,starting_value=nil)
     i=1
   end
   while i < arr.length do
-    if arr[i]
       adder=yield(adder,arr[i])
     end
   end
