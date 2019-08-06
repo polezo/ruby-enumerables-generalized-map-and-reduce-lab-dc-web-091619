@@ -5,7 +5,8 @@ def map (arr)
   while i < arr.length 
   arr2.push(arr[i])
    i+=1
-end
+  end
  yield(arr2)
+end
 
-map
+
