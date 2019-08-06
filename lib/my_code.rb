@@ -9,10 +9,9 @@ def map (arr)
   arr2
 end
 
-def reduce (arr)
-  value = 0
-  truthiness = nil
-  i=0 
+def reduce (arr,starting_value=nil)
+  if starting_value
+    
   while i < arr.length do
     if arr[i]
 
