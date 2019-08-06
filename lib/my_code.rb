@@ -12,7 +12,10 @@ end
 def reduce (arr,starting_value=nil)
   if starting_value
     adder=starting_value
-    
+    i=0 
+  else
+    adder=0 
+    i=1
   while i < arr.length do
     if arr[i]
 
