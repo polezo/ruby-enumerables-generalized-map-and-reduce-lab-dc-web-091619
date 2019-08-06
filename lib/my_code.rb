@@ -11,6 +11,7 @@ end
 
 def reduce (arr,starting_value=nil)
   if starting_value
+    adder=starting_value
     
   while i < arr.length do
     if arr[i]
