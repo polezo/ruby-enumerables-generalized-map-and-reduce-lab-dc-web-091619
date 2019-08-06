@@ -19,7 +19,7 @@ def reduce (arr,starting_value=nil)
   end
   while i < arr.length do
       adder=yield(adder,arr[i])
-    end
+      i+=1 
   end
   adder
 end
