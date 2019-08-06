@@ -4,3 +4,4 @@ def map
   while i < arr.length 
     arr2.push(arr[i]*-1)
     i+=1
+end
